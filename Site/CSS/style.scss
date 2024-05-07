@@ -1,0 +1,121 @@
+$primary: #000000;
+$secundary: #a1a1a1;
+$clear: #ff0000;
+$white: #ffffff;
+$font1: Oswald, tahoma ;
+$font2: tahoma, verdana;
+$margin:20px;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background: $primary;
+    color: $secundary;
+    padding: $margin;
+    .header-logo img{
+        width: 20%;
+        height: 100%;
+    }
+}
+
+.header-nav{
+float: right;
+ul{
+    list-style: none;
+        li{
+           display: inline-block;
+           margin:$margin;
+                a{
+                    color:$secundary;
+                    text-decoration: none;
+                    font: 20px $font1;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    &:hover{
+                        color: $clear;
+                    }
+                }     
+        }
+    }
+
+}
+
+.header{
+    border-bottom: 3px solid #ff0000;
+}
+
+.video {
+    video{
+      width: 100%;
+    }
+}
+
+
+.footer{
+    position: relative;
+    bottom:0%;
+    background: $primary;   
+    padding-bottom: 2%;
+    padding-top: 2%;
+    width: 100%;
+    color: $white;
+    text-align: center;
+    font: 20px $font1;
+}
+
+.fixo{
+    position: fixed;
+    bottom:0%;
+    background: $primary;   
+    padding-bottom: 2%;
+    padding-top: 2%;
+    width: 100%;
+    color: $white;
+    text-align: center;
+    font: 20px $font1;  
+}
+container{
+    width: 1000px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .flex-coluna{
+        width: 30%;
+        margin: $margin;
+        padding: $margin;
+        box-shadow: 0 0 $margin $secundary;
+        text-align: center;
+        font: 20px $font2;
+    }
+}
+
+h1{
+    font:30px $font1 ;
+    text-align: center;
+    font-weight: bold;
+    margin: $margin;
+}
+
+.logocybertech{
+    height: 8%;
+    width: 8%;
+}
+
+.logo{
+    max-height: 15%;
+    max-width: 15%;
+    padding: 0;
+}
+
+.banner{
+    width: 100%;
+    max-height: 10%;
+    box-shadow: 0px 0px 20px black;
+}
