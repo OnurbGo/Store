@@ -40,6 +40,8 @@
 
 .video {
   width: 100%;
+  height: 1%;
+  border-bottom: 3px solid #ff0000;
 }
 
 .footer {
@@ -108,9 +110,33 @@ h1 {
 }
 
 .banner {
-  width: 100%;
+  max-width: 100%;
   max-height: 10%;
-  box-shadow: 0px 0px 20px black;
+  width: auto;
+  height: auto;
+  border-bottom: 3px solid red;
+}
+
+.capa {
+  max-width: 30%;
+  max-height: 30%;
+  align-items: left;
+  box-shadow: 0 0 20px #a1a1a1;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.conteiner-capa {
+  padding-left: 3%;
+  padding-right: 3%;
+  font-family: tahoma, verdana;
+  text-align: left;
+  display: flex;
+}
+
+.textocentro {
+  text-align: center;
+  font-family: tahoma, verdana;
 }
 
 .centro {
@@ -154,6 +180,32 @@ button:hover {
 .flexp {
   background: #ffd4d4;
   padding: 15px;
+}
+
+.textoflex {
+  color: #000000;
+  font-family: tahoma, verdana;
+  text-decoration: none;
+}
+
+.p {
+  font: 15px tahoma, verdana;
+  text-align: center;
+  margin: 20px;
+}
+
+.gif-alex {
+  height: 10%;
+  width: 10%;
+}
+
+.conteiner-centro {
+  font-family: tahoma, verdana;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f1f1f1;
 }
 
 /*# sourceMappingURL=style.css.map */
