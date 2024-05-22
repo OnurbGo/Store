@@ -5,7 +5,7 @@ $white: #ffffff;
 $font1: Oswald, tahoma;
 $font2: tahoma, verdana;
 $margin: 20px;
-$flexp: rgb(255, 212, 212);
+$flexp: #ffdbdb;
 
 * {
   padding: 0;
@@ -19,7 +19,7 @@ $flexp: rgb(255, 212, 212);
   .header-logo img {
     width: 20%;
     height: 100%;
-  }
+  } 
 }
 
 .header-nav {
@@ -32,7 +32,7 @@ $flexp: rgb(255, 212, 212);
       a {
         color: $secundary;
         text-decoration: none;
-        font: 20px $font1;
+        font: 120% $font1;
         font-weight: bold;
         text-transform: uppercase;
         &:hover {
@@ -106,6 +106,8 @@ h1 {
   margin: $margin;
 }
 
+
+
 .logocybertech {
   height: 8%;
   width: 8%;
@@ -114,6 +116,12 @@ h1 {
 .logo {
   max-height: 15%;
   max-width: 15%;
+  padding: 0;
+}
+
+.logo-centro {
+  max-height: 40%;
+  max-width: 40%;
   padding: 0;
 }
 
@@ -146,7 +154,7 @@ h1 {
 
 .textocentro{
   text-align: center;
-  font-family: $font2;
+  font: 110% $font2;
 }
 
 .centro { 
@@ -154,6 +162,7 @@ h1 {
   margin: auto;
   align-items: center;
   text-align: center;
+  font-family: $font2;;
 }
 
 input,
@@ -190,6 +199,7 @@ button:hover {
 .flexp{
   background: $flexp;
   padding: 15px;
+  margin: 0px;
 }
 
 .textoflex{
@@ -209,11 +219,103 @@ button:hover {
   width: 10%;
 }
 
-.conteiner-centro{
+
+.conteiner-centro{ 
   font-family: $font2;
   text-align: center;
   align-items: center;
   margin-left: auto;
-  margin-right: auto;  
-  background-color: #f1f1f1;
+  margin-right: auto; 
+}
+
+.jogocentro{
+  align-items: center;
+  margin: auto ;
+
+}
+
+.botao{
+  font-family: $font1;
+  font-weight: bold;
+}
+
+
+//mobile
+@media (max-width: 486px) {
+  .header-nav {
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        a {
+          color: $secundary;
+          text-decoration: none;
+          font: 100% $font1;
+          font-weight: bold;
+          text-transform: uppercase;
+          &:hover {
+            color: $clear;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0%;
+    background: $primary;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin-top: auto;
+    width: 100%;
+    color: $white;
+    text-align: center;
+    font: 20px $font1;
+  }
+
+  .logo {
+    max-height: 20%;
+    max-width: 20%;
+    padding: 0;
+  }
+
+  .gif-alex{
+    height: 30%;
+    width: 30%;
+  }
+
+  .capa{
+    display: none !important;
+    opacity: 0;
+  }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .flex-coluna {
+      width: 50%;
+      margin: $margin;
+      padding: $margin;
+      box-shadow: 0 0 $margin $secundary;
+      text-align: center;
+      font: 20px $font2;
+        img{
+          max-width: 100%;
+          max-height: 100%;
+        }
+    }
+  }
+
+    .jogocentro {
+      display: none !important;
+      opacity: 0;
+  }
+
+
 }
