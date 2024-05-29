@@ -53,6 +53,7 @@ $flexp: #ffdbdb;
     border-bottom: 3px solid #ff0000;
 }
 
+
 .footer {
   position: relative;
   bottom: 0%;
@@ -183,18 +184,20 @@ label {
 }
 
 button {
-  background-color: rgb(141, 141, 141);
+  background: $secundary;
   padding: 10px;
   border: 0;
   margin-top: 10px;
   border-radius: 10px;
   cursor: pointer;
+  transition: background 0.5s;
+}
+ 
+button:hover,
+button:focus {
+  background: rgb(255, 0, 0);
 }
 
-button:hover {
-  transition: 0.5s;
-  background-color: rgb(255, 0, 0);
-}
 
 .flexp{
   background: $flexp;
@@ -230,8 +233,9 @@ button:hover {
 
 .jogocentro{
   align-items: center;
-  margin: auto ;
-
+  margin: auto;
+  text-align: center;
+  justify-content: center;
 }
 
 .botao{
@@ -316,6 +320,5 @@ button:hover {
       display: none !important;
       opacity: 0;
   }
-
 
 }

@@ -171,17 +171,18 @@ label {
 }
 
 button {
-  background-color: #8d8d8d;
+  background: #a1a1a1;
   padding: 10px;
   border: 0;
   margin-top: 10px;
   border-radius: 10px;
   cursor: pointer;
+  transition: background 0.5s;
 }
 
-button:hover {
-  transition: 0.5s;
-  background-color: red;
+button:hover,
+button:focus {
+  background: red;
 }
 
 .flexp {
@@ -218,6 +219,8 @@ button:hover {
 .jogocentro {
   align-items: center;
   margin: auto;
+  text-align: center;
+  justify-content: center;
 }
 
 .botao {
