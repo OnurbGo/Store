@@ -86,6 +86,7 @@
           <img src="Imagens/Capa Piratas.jpeg" alt="Piratas E Bombas" title="Piratas E Bombas">
           <p class="flexp">Jogo2</p>
           </a>
+
         </div>
         <div class="flex-coluna">
           <img src="" alt="Jogo3" title="Jogo3">

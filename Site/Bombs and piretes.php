@@ -48,38 +48,28 @@
 
     
       <div class="conteiner-capa">
-      <img class="capa" src='Imagens/Capa.png'/>
+      <img class="capa" src='Imagens/Capa Piratas.jpeg'/>
         <p>
-        Você presencia Alexander Springovisk em ação atraves de cameras de segurança, 
-        ele é um agente altamente habilidoso e capacitado para resolver qualquer missão 
-        que caia em sua responsabilidade.
-        <br><br>
+        Nessa Aventura Você é um Pirata Um Tanto Bebum, que passa da conta na bebida
+        e passa a ver Homens Gigantes e Baleias que andam na terra <br><br>
 
-        Seu personagem é um agente especial de missões
-        extra-officiais, extremamente eficiente em seus metodos, 
-        e seu lema é missão dada é missão cumprida.
-        <br><br>
-
-        Sua missão é Eliminar um politico envolvido com organizações criminosas, 
-        este homem é mandante de mais crimes que você se quer consiguiria pensar.
-        <br><br>
-
-        Sua missão é Eliminar um politico envolvido com organizações criminosas, 
-        este homem é mandante de mais crimes que você se quer consiguiria pensar 
-        <br> <br>
+        Em vez de esperar o efeito da bebida passar, você decide lidar com seus problemas, 
+        enfrentando suas alucinações, na base da paulada.
         </p>
       </div>
 
       <br><br><br>
 
-
-      <!--<div class="conteiner-centro">
-      <img class="gif-alex" src="imagens/andar.gif" alt="Gif Andando">
-      <br><br>-->
       
-      <iframe class="jogocentro" width="90%" height="500" src="Jogos/bomb and pirates/index.html" title="Jogo"></iframe>
+      <div class="jogocentro">
+        <iframe class="jogocentro" width="90%" height="500" src="Jogos/bomb and pirates/index.html" title="Piratas"></iframe>
+      </div>
+      
+      <div class="jogocentro">
+      <a class="centroiframe" target="_blank" href="Jogos/bomb and pirates/index.html"><button class="botao">Jogo Em Tela Cheia</button></a>
+      </div>
 
-      <br><br>
+      <br><br><br>
       <ul class="textocentro">
         <li>Ficha Tecnica</li>
         <br>

@@ -37,31 +37,16 @@
         </ul>
       </nav>
     </header>
+    <br>
 
-    <div class="centro">
-      <h1>Nos Contate Aqui:</h1>
-      <br />
-      <form name="formContato">
-        <label for="nome">Digite seu nome completo:</label>
-        <input type="text" name="nome" id="nome" required />
-        <br />
-        <label for="email">Digite seu e-mail:</label>
-        <input type="email" name="email" id="email" required />
-        <br />
-        <label for="mensagem">Digite sua mensagem:</label>
-        <textarea
-          name="mensagem"
-          id="mensagem"
-          required
-          cols="30"
-          rows="10"
-        ></textarea>
-        <br />
+    <h1>Erro 404</h1>
+    <p class="textocentro">Pagina não Encontrada</p>
 
-        <button class="botao" type="button">Enviar Mensagem</button>
-
-      </form>
+    <div class="conteiner-centro">
+    <img class="gif-alex" src="Imagens/Stun.webp">
     </div>
+
+
 
   <br><br><br>
   </body>

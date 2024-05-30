@@ -77,7 +77,11 @@
       <img class="gif-alex" src="imagens/andar.gif" alt="Gif Andando">
       <br><br>
       
-      <iframe class="jogocentro" width="90%" height="500" src="Jogos/Parabellum/index.html" title="Jogo"></iframe>
+      <div class="centroiframe">
+      <iframe class="jogocentro" width="90%" height="500" src="Jogos/Parabellum/index.html" title="Parabellum"></iframe>
+      </div>
+      <a class="centroiframe" target="_blank" href="Jogos/Parabellum/index.html"><button class="botao">Jogo Em Tela Cheia</button></a>
+      
 
       <br><br>
       <ul class="textocentro">

@@ -116,9 +116,8 @@ h1 {
 }
 
 .banner {
-  max-width: 100%;
+  width: 100%;
   max-height: 10%;
-  width: auto;
   height: auto;
   border-bottom: 3px solid red;
 }
@@ -142,7 +141,7 @@ h1 {
 
 .textocentro {
   text-align: center;
-  font: 110% tahoma, verdana;
+  font: 100% tahoma, verdana;
 }
 
 .centro {
@@ -208,6 +207,13 @@ button:focus {
   width: 10%;
 }
 
+.gif-agradecimento {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
 .conteiner-centro {
   font-family: tahoma, verdana;
   text-align: center;
@@ -220,7 +226,13 @@ button:focus {
   align-items: center;
   margin: auto;
   text-align: center;
+}
+
+.centroiframe {
   justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
 }
 
 .botao {
