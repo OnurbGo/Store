@@ -38,23 +38,23 @@
   
     <img
     class="banner"
-    src="Imagens/Banner Piratas.png"
-    alt="Piratas E Bombas"
-    title="Piratas E Bombas"
+    src="Imagens/Banner Survival.png"
+    alt="Survival Instinct"
+    title="Survival Instinct"
     />
 
     <main>
-      <h1 class="h1">Piratas</h1>
+      <h1 class="h1">Survival Instinct</h1>
 
     
       <div class="conteiner-capa">
-      <img class="capa" src='Imagens/Capa Piratas.jpeg'/>
+      <img class="capa" src='Imagens/Capa Survival.png'/>
         <p>
-        Nessa Aventura Você é um Pirata Um Tanto Bebum, que passa da conta na bebida
-        e passa a ver Homens Gigantes e Baleias que andam na terra <br><br>
+        Nesse Jogo Seu objetivo é simples porém não é facil, basta Sobreviver as hordas de 
+        mortos vivos que avançam sem parar em busca de carne fresca.<br><br>
 
-        Em vez de esperar o efeito da bebida passar, você decide lidar com seus problemas, 
-        enfrentando suas alucinações, na base da paulada.
+        Para isso você tem a disposição uma pistola e só depende de você traçar as estratégias
+        para ter uma chance de não morrer.
         </p>
       </div>
 
@@ -62,11 +62,11 @@
 
       
       <div class="jogocentro">
-        <iframe class="jogocentro" width="90%" height="500" src="Jogos/bomb and pirates/index.html" title="Piratas"></iframe>
+        <iframe class="jogocentro" width="90%" height="500" src="Jogos/Survival Instinct/index.html" title="Piratas"></iframe>
       </div>
       
       <div class="jogocentro">
-      <a class="centroiframe" target="_blank" href="Jogos/bomb and pirates/index.html"><button class="botao">Jogo Em Tela Cheia</button></a>
+      <a class="centroiframe" target="_blank" href="Jogos/Survival Instinct/index.html"><button class="botao">Jogo Em Tela Cheia</button></a>
       </div>
 
       <br><br><br>
@@ -75,8 +75,8 @@
         <br>
         <li><strong>Engine:</strong>	Construct 3</li>
         <li><strong>Plataforma:</strong> PC</li>
-        <li><strong>Mecânica:</strong> Plataforma</li>
-        <li><strong>Dispositivos de Entrada:</strong>Teclado</li>
+        <li><strong>Mecânica:</strong> Shooter, Top-Down-View</li>
+        <li><strong>Dispositivos de Entrada:</strong>Teclado, Mouse</li>
         </ul>
         <br><br><br><br><br><br>
         </div>

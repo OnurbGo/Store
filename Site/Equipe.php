@@ -39,7 +39,7 @@
     </header>
 
     <main class="container">
-      <h1>Produtos Em Destaque</h1>
+      <h1>Membros Da Equipe:</h1>
       <div class="flex">
         <div class="flex-coluna">
           <img src="Imagens/logo B.png" alt="Bruno" title="Bruno"

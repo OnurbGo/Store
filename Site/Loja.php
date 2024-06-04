@@ -54,7 +54,9 @@
     </a>
     </div>
       <div class="carousel-item">
-        <img class="banner" src="..." class="d-block w-100" alt="Banner Jogo 3">
+        <a href="Survival Instinct.php">
+        <img class="banner" src="Imagens/Banner Survival.png" class="d-block w-100" alt="Banner Jogo 3">
+        </a>
       </div>
     </div>
     <!--Fim Do Carrocel-->
@@ -77,20 +79,23 @@
       <div class="flex">
         <div class="flex-coluna">
           <a class="textoflex" href="Parabellum.php">
-            <img src="Imagens/Capa.png"alt="Parabellum" title="Parabellum">
-            <p class="flexp">Parabellum</p>
+              <img src="Imagens/Capa.png"alt="Parabellum" title="Parabellum">
+              <p class="flexp">Parabellum</p>
           </a>
         </div>
         <div class="flex-coluna">
           <a class="textoflex" href="Bombs and piretes.php">
-          <img src="Imagens/Capa Piratas.jpeg" alt="Piratas E Bombas" title="Piratas E Bombas">
-          <p class="flexp">Jogo2</p>
+            <img src="Imagens/Capa Piratas.jpeg" alt="Piratas E Bombas" title="Piratas E Bombas">
+            <p class="flexp">Pirates And Bombs</p>
           </a>
 
         </div>
         <div class="flex-coluna">
-          <img src="" alt="Jogo3" title="Jogo3">
-          <p class="flexp">Jogo3</p>
+          <a class="textoflex" href="Survival Instinct.php">
+            <img src="Imagens/Capa Survival.png" alt="Survival Instinct" title="Survival Instinct">
+            <p class="flexp">Survival Instinct</p>
+          </a>
+
         </div>
         <div class="flex-coluna">
           <img src="" alt="Jogo4" title="Jogo4" />
