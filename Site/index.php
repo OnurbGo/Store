@@ -1,69 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meia-Lua Store</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meia-Lua Store</title>
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="Imagens/Icone.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet" />
 
-  <body>
-    <header class="header">
-      <a href="index.php" title="Home" class="header-logo">
-        <img
-          class="logo"
-          src="Imagens/Logo Meia Lua.png"
-          alt="Logo"
-          title="Logo"
-        />
-      </a>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="Imagens/Icone.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-      <nav class="header-nav">
-        <ul>
-          <li><a href="index.php" title="Home">Home</a></li>
-          <li><a href="Loja.php" title="Loja">Loja</a></li>
-          <li><a href="Contato.php" title="Contato">Contato</a></li>
-          <li><a href="Equipe.php" title="Equipe">Equipe</a></li>
-        </ul>
-      </nav>
-    </header>
+<body>
+  <header class="header">
+    <a href="index.php" title="Home" class="header-logo">
+      <img class="logo" src="Imagens/Logo Meia Lua.png" alt="Logo" title="Logo" />
+    </a>
 
-    <video class="video" autoplay muted loop>
-    <source src="Imagens/Banner Shin Shoruyken.mp4" type="video/mp4">
-    </video>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="index.php?pg=Home" title="Home">Home</a></li>
+        <li><a href="index.php?pg=Loja" title="Loja">Loja</a></li>
+        <li><a href="index.php?pg=Contato" title="Contato">Contato</a></li>
+        <li><a href="index.php?pg=Equipe" title="Equipe">Equipe</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <div class="conteiner-centro">
-    <img class="logo-centro" src="Imagens/Nome Meia Lua.jpg" alt="Meia Lua Store">
-    </div>
+  <!--Aqui Vai O Conteudo Dos Sites-->
+  <?php
+$pg = $_GET["pg"] ?? "Home";
 
-    <p class="textocentro">Este site é uma biblioteca online de jogos gratuitos, nosso intuito é conceder uma esperiencia agradavel para aqueles que querem apenas desfrutar de pequenas sessões de jogatinas.</p>
-    <br>
-    <p class="textocentro">Temos atualmente sete jogos em nossa biblioteca e possuimos 7 membros ativos.</p>
-    
+//include "paginas/{$pg}.php"
+  $pg = "{$pg}.php";
 
-  <br><br><br><br><br><br>    
+//verificar se a pagina existe
+  if(file_exists($pg)){
+    include $pg;
+  }else{
+    include "Erro.php";
+  }
+?>
+  <!--Fim Do Conteudo-->
 
+</body>
 
-  </body>
+<footer class="footer">
+  <img class="logocybertech" src="Imagens/Logo Cybertech.png" alt="logo cybertech" title="logo cybertech" />
+  <p class="textobranco">Created By Cybertech</p>
+  <p class="textobranco">Todos os direitos reservados a Bruno Gotardo</p>
+</footer>
 
-  <footer class="footer">
-    <img
-      class="logocybertech"
-      src="Imagens/Logo Cybertech.png"
-      alt="logo cybertech"
-      title="logo cybertech"
-    />
-    <p class="textobranco">Created By Cybertech</p>
-    <p class="textobranco">Todos os direitos reservados a Bruno Gotardo</p>
-  </footer>
 </html>

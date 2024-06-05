@@ -16,12 +16,23 @@
 </head>
 
 <body>
-  <h1>Obrigado Pelo FeedBack</h1>
+  <video class="video" autoplay muted loop>
+    <source src="Imagens/Banner Shin Shoruyken.mp4" type="video/mp4">
+  </video>
 
   <div class="conteiner-centro">
-    <img class="gif-agradecimento" src="Imagens/Agradecimento.gif">
+    <img class="logo-centro" src="Imagens/Nome Meia Lua.jpg" alt="Meia Lua Store">
   </div>
-  <br><br><br>
+
+  <p class="textocentro">Este site é uma biblioteca online de jogos gratuitos, nosso intuito é conceder uma esperiencia
+    agradavel para aqueles que querem apenas desfrutar de pequenas sessões de jogatinas.</p>
+  <br>
+  <p class="textocentro">Temos atualmente sete jogos em nossa biblioteca e possuimos 6 membros ativos.</p>
+
+
+  <br><br><br><br><br><br>
+
+
 </body>
 
 </html>
