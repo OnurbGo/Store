@@ -43,7 +43,7 @@
     </div>
 
     <div class="jogocentro">
-      <a class="centroiframe" target="_blank" href="Jogos/bomb and pirates/index.html"><button class="botao">Jogo Em
+      <a class="centroiframe" target="_blank" href="Jogos/bomb and pirates/index.html"><button class="botao-jogo">Jogo Em
           Tela Cheia</button></a>
     </div>
 

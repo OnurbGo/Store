@@ -57,7 +57,7 @@
         <iframe class="jogocentro" width="90%" height="500" src="Jogos/Parabellum/index.html"
           title="Parabellum"></iframe>
       </div>
-      <a class="centroiframe" target="_blank" href="Jogos/Parabellum/index.html"><button class="botao">Jogo Em Tela
+      <a class="centroiframe" target="_blank" href="Jogos/Parabellum/index.html"><button class="botao-jogo">Jogo Em Tela
           Cheia</button></a>
 
 

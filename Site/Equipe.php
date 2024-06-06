@@ -12,14 +12,27 @@
 
   <link rel="stylesheet" href="css/style.css" />
   <link rel="shortcut icon" href="Imagens/Icone.png" />
+
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+        <script>
+        AOS.init();
+      </script>
+
   <main class="container">
     <h1>Membros Da Equipe:</h1>
     <div class="flex">
 
+
+      
       <div class="flex-coluna">
         <img src="Imagens/logo B.png" alt="Bruno" title="Bruno" />
         <p>Bruno Gotardo</p>
@@ -49,8 +62,8 @@
         <img src="Imagens/logo A.png" alt="Pessoa4" title="Pessoa4" />
         <p>Vitor Giese</p>
       </div>
-      </div>
     </div>
+  
   </main>
 
   <br><br><br><br><br><br>

@@ -243,6 +243,11 @@ button:focus {
   font-weight: bold;
 }
 
+.botao-jogo {
+  font-family: Oswald, tahoma;
+  font-weight: bold;
+}
+
 @media (max-width: 486px) {
   .header-nav ul {
     list-style: none;
@@ -315,6 +320,20 @@ button:focus {
   .jogocentro {
     display: none !important;
     opacity: 0;
+  }
+
+  .gif-alex {
+    display: none !important;
+  }
+
+  .botao-jogo {
+    display: none !important;
+  }
+
+  .logocybertech {
+    height: 15%;
+    width: 15%;
+    margin-bottom: -3%;
   }
 }
 

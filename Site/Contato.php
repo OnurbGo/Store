@@ -22,22 +22,38 @@
 
     <form name="formContato" id="form"  method="post" action="index.php?pg=Agradecimento">
       <label for="nome">Digite seu nome completo:</label>
-      <input type="text" name="nome" id="nome" required />
+      <input type="text" name="nome" id="nome" />
       <br/>
       <label for="email">Digite seu e-mail:</label>
-      <input type="email" name="email" id="email" required />
+      <input type="email" name="email" id="email" />
       <br/>
       <label for="mensagem">Digite sua mensagem:</label>
-      <textarea name="mensagem" id="mensagem" required cols="30" rows="10"></textarea>
+      <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
       <br/>
       
       <button class="botao" type="button" id="botao" onclick="LevaLink()">Enviar Mensagem</button>
 
       <script>
       function LevaLink() {
-        var nome = document.getElementById("nome").value;
+    
 
         //Validar dados
+        var nome = document.getElementById("nome").value.trim();
+        var email = document.getElementById("email").value.trim();
+        var mensagem = document.getElementById("mensagem").value.trim();
+
+        if (nome === ""){
+          alert ("Por Favor Digite Seu Nome.");
+          return False;
+        }
+        if (email === ""){
+          alert ("Por Favor Digite Seu Email.");
+          return False;
+        }
+        if (mensagem === ""){
+          alert ("Por Favor Digite Sua Mensagem.");
+          return False;
+        }
       
         document.getElementById("form").submit();
       }
