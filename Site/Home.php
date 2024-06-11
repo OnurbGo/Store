@@ -25,12 +25,21 @@
   </div>
 
   <p class="textocentro">Este site é uma biblioteca online de jogos gratuitos, nosso intuito é conceder uma esperiencia
-    agradavel para aqueles que querem apenas desfrutar de pequenas sessões de jogatinas.</p>
+    agradavel<br> para aqueles que querem apenas desfrutar de pequenas sessões de jogatinas.</p>
   <br>
-  <p class="textocentro">Temos atualmente sete jogos em nossa biblioteca e possuimos 6 membros ativos.</p>
+  <p class="textocentro">Temos atualmente 4 jogos em nossa biblioteca e possuimos 6 membros ativos.</p>
+  <br><br><br><br>
+    
+  <div class="conteiner-centro">
+  <img class="gif-agradecimento" src="Imagens/Hadouken Hit.gif">
+  </div>
 
+  <br><br><br><br>
+  <p class="textocentro">Aqui você vai encontrar diversos jogos de gêneros diferentes,
+  <br>Priorizamos a sua experiencia e praticidade, então boa jogatina Campião.</p>
+  <br>
 
-  <br><br><br><br><br><br>
+  <br><br><br>
 
 
 </body>

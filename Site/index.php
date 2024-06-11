@@ -50,7 +50,9 @@ $pg = $_GET["pg"] ?? "Home";
 </body>
 
 <footer class="footer">
+  <a href="index.php?pg=Equipe">
   <img class="logocybertech" src="Imagens/Logo Cybertech.png" alt="logo cybertech" title="logo cybertech" />
+  </a>
   <p class="textobranco">Created By Cybertech</p>
   <p class="textobranco">Todos os direitos reservados a Bruno Gotardo</p>
 </footer>

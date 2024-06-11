@@ -42,6 +42,11 @@
           <img class="banner" src="Imagens/Banner Survival.png" class="d-block w-100" alt="Banner Jogo 3">
         </a>
       </div>
+      <div class="carousel-item">
+        <a href="index.php?pg=A Arte Da Ocultação">
+          <img class="banner" src="Imagens/Banner Ocult.png" class="d-block w-100" alt="Banner Jogo 3">
+        </a>
+      </div>
     </div>
     <!--Fim Do Carrocel-->
 
@@ -82,8 +87,10 @@
 
       </div>
       <div class="flex-coluna">
-        <img src="" alt="Jogo4" title="Jogo4" />
-        <p class="flexp">Jogo4</p>
+        <a class="textoflex" href="index.php?pg=A Arte Da Ocultação">
+        <img src="Imagens/Capa Ocult.jpeg" alt="A Arte Da Ocultação" title="A Arte Da Ocultação" />
+        <p class="flexp">A Arte Da Ocultação</p>
+        </a>
       </div>
     </div>
   </main>

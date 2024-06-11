@@ -39,10 +39,6 @@
         Sua missão é Eliminar um politico envolvido com organizações criminosas,
         este homem é mandante de mais crimes que você se quer consiguiria pensar.
         <br><br>
-
-        Sua missão é Eliminar um politico envolvido com organizações criminosas,
-        este homem é mandante de mais crimes que você se quer consiguiria pensar
-        <br> <br>
       </p>
     </div>
 
