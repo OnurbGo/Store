@@ -34,34 +34,35 @@
 
       
       <div class="flex-coluna">
-        <img src="Imagens/logo B.png" alt="Bruno" title="Bruno" />
+        <img src="Imagens/logo B.png" alt="Bruno Gotardo" title="Bruno Gotardo" />
         <p>Bruno Gotardo</p>
       </div>
 
       <div class="flex-coluna">
-        <img src="Imagens/logo A.png" alt="Pessoa2" title="Pessoa2" />
-        <p>Jõao Felipe</p>
-      </div>
-
-      <div class="flex-coluna">
-        <img src="Imagens/logo A.png" alt="Pessoa3" title="Pessoa3" />
-        <p>Lucas Barbosa</p>
-      </div>
-
-      <div class="flex-coluna">
-        <img src="Imagens/logo A.png" alt="Pessoa4" title="Pessoa4" />
-        <p>Rafael Maia</p>
-      </div>
-
-      <div class="flex-coluna">
-        <img src="Imagens/logo A.png" alt="Pessoa4" title="Pessoa4" />
+        <img src="Imagens/Thiago.png" alt="Thiago Borges" title="Thiago Borges" />
         <p>Thiago Borges</p>
       </div>
 
       <div class="flex-coluna">
-        <img src="Imagens/logo A.png" alt="Pessoa4" title="Pessoa4" />
+        <img src="Imagens/Vitor.png" alt="Vitor Giese" title="Vitor Giese" />
         <p>Vitor Giese</p>
       </div>
+
+      <div class="flex-coluna">
+        <img src="Imagens/logo A.png" alt="Jõao Felipe" title="Jõao Felipe" />
+        <p>Jõao Felipe</p>
+      </div>
+
+      <div class="flex-coluna">
+        <img src="Imagens/logo A.png" alt="Lucas Barbosa" title="Lucas Barbosa" />
+        <p>Lucas Barbosa</p>
+      </div>
+
+      <div class="flex-coluna">
+        <img src="Imagens/logo A.png" alt="Rafael Maia" title="Rafael Maia" />
+        <p>Rafael Maia</p>
+      </div>
+
     </div>
   
   </main>
