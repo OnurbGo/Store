@@ -266,6 +266,7 @@ button:focus {
 
 //mobile
 @media (max-width: 486px) {
+
   .header-nav {
     ul {
       list-style: none;
@@ -274,13 +275,16 @@ button:focus {
         text-align: center;
         align-items: center;
         margin: auto;
-        text-align: center;
         a {
           color: $secundary;
           text-decoration: none;
           font: 100% $font1;
           font-weight: bold;
           text-transform: uppercase;
+          margin-left: 5px;
+          margin-right: 5px;
+          margin-top: auto;
+          margin-bottom: auto;
           &:hover {
             color: $clear;
           }
@@ -305,7 +309,8 @@ button:focus {
   .logo {
     max-height: 20%;
     max-width: 20%;
-    padding: 0;
+    padding: auto;
+    margin: auto;
   }
 
   .gif-alex{

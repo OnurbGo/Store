@@ -7,3 +7,5 @@
 # V0.9-1.0 Refinamento e Estabilidades aprimorados
 
 # V1.1 Adicionado imagens da equipe
+
+# V1.2 Melhorias na responsividade

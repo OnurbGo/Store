@@ -36,10 +36,10 @@
 
   <br><br><br><br>
   <p class="textocentro">Aqui você vai encontrar diversos jogos de gêneros diferentes,
-  <br>Priorizamos a sua experiencia e praticidade, então boa jogatina Campião.</p>
+  <br>Priorizamos a sua experiencia e praticidade, então boa jogatina Campeão.</p>
   <br>
 
-  <br><br><br>
+  <br><br><br><br><br><br>
 
 
 </body>
