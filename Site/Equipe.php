@@ -34,32 +34,32 @@
 
       
       <div class="flex-coluna">
-        <img src="Imagens/logo B.png" alt="Bruno Gotardo" title="Bruno Gotardo" />
+        <img src="imagens/logo_bruno.png" alt="Bruno Gotardo" title="Bruno Gotardo" />
         <p>Bruno Gotardo</p>
       </div>
 
       <div class="flex-coluna">
-        <img src="Imagens/Thiago.png" alt="Thiago Borges" title="Thiago Borges" />
+        <img src="imagens/logo_thiago.png" alt="Thiago Borges" title="Thiago Borges" />
         <p>Thiago Borges</p>
       </div>
 
       <div class="flex-coluna">
-        <img src="Imagens/Vitor.png" alt="Vitor Giese" title="Vitor Giese" />
+        <img src="imagens/logo_vitor.png" alt="Vitor Giese" title="Vitor Giese" />
         <p>Vitor Giese</p>
       </div>
 
       <div class="flex-coluna">
-        <img src="Imagens/logo A.png" alt="Jõao Felipe" title="Jõao Felipe" />
+        <img src="imagens/logo_a.png" alt="Jõao Felipe" title="Jõao Felipe" />
         <p>Jõao Felipe</p>
       </div>
 
       <div class="flex-coluna">
-        <img src="Imagens/logo A.png" alt="Lucas Barbosa" title="Lucas Barbosa" />
+        <img src="imagens/logo_a.png" alt="Lucas Barbosa" title="Lucas Barbosa" />
         <p>Lucas Barbosa</p>
       </div>
 
       <div class="flex-coluna">
-        <img src="Imagens/logo A.png" alt="Rafael Maia" title="Rafael Maia" />
+        <img src="imagens/logo_a.png" alt="Rafael Maia" title="Rafael Maia" />
         <p>Rafael Maia</p>
       </div>
 

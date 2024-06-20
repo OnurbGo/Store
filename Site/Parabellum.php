@@ -17,14 +17,14 @@
 </head>
 
 <body>
-  <img class="banner" src="Imagens/Banner Parabellum.png" alt="Parabellum" title="Parabellum" />
+  <img class="banner" src="imagens/banner_parabellum.png" alt="Parabellum" title="Parabellum" />
 
   <main>
     <h1 class="h1">Parabellum OPS</h1>
 
 
     <div class="conteiner-capa">
-      <img class="capa" src='Imagens/Capa.png' />
+      <img class="capa" src='imagens/capa_parabellum.png' />
       <p>
         Você presencia Alexander Springovisk em ação atraves de cameras de segurança,
         ele é um agente altamente habilidoso e capacitado para resolver qualquer missão
@@ -50,10 +50,10 @@
       <br><br>
 
       <div class="centroiframe">
-        <iframe class="jogocentro" width="90%" height="500" src="Jogos/Parabellum/index.html"
+        <iframe class="jogocentro" width="90%" height="500" src="Jogos/parabellum/index.html"
           title="Parabellum"></iframe>
       </div>
-      <a class="centroiframe" target="_blank" href="Jogos/Parabellum/index.html"><button class="botao-jogo">Jogo Em Tela
+      <a class="centroiframe" target="_blank" href="Jogos/parabellum/index.html"><button class="botao-jogo">Jogo Em Tela
           Cheia</button></a>
 
 

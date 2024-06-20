@@ -28,23 +28,23 @@
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <a href="index.php?pg=Parabellum">
-          <img class="banner" src="Imagens/Banner Parabellum.png" class="d-block w-100" alt="Banner Parabellum">
+        <a href="index.php?pg=parabellum">
+          <img class="banner" src="imagens/banner_parabellum.png" class="d-block w-100" alt="Banner Parabellum">
         </a>
       </div>
       <div class="carousel-item">
-        <a href="index.php?pg=Bombs and piretes">
-          <img class="banner" src="Imagens/Banner Piratas.png" class="d-block w-100" alt="Banner Pirata">
+        <a href="index.php?pg=bombs_and_piretes">
+          <img class="banner" src="imagens/banner_piratas.png" class="d-block w-100" alt="Banner Pirata">
         </a>
       </div>
       <div class="carousel-item">
-        <a href="index.php?pg=Survival Instinct">
-          <img class="banner" src="Imagens/Banner Survival.png" class="d-block w-100" alt="Banner Jogo 3">
+        <a href="index.php?pg=survival_instinct">
+          <img class="banner" src="imagens/banner_survival.png" class="d-block w-100" alt="Banner Jogo 3">
         </a>
       </div>
       <div class="carousel-item">
-        <a href="index.php?pg=A Arte Da Ocultação">
-          <img class="banner" src="Imagens/Banner Ocult.png" class="d-block w-100" alt="Banner Jogo 3">
+        <a href="index.php?pg=a_arte_da_ocultação">
+          <img class="banner" src="imagens/banner_ocult.png" class="d-block w-100" alt="Banner Jogo 3">
         </a>
       </div>
     </div>
@@ -67,28 +67,28 @@
     <h1>Produtos Em Destaque</h1>
     <div class="flex">
       <div class="flex-coluna">
-        <a class="textoflex" href="index.php?pg=Parabellum">
-          <img src="Imagens/Capa.png" alt="Parabellum" title="Parabellum">
+        <a class="textoflex" href="index.php?pg=parabellum">
+          <img src="imagens/capa_parabellum.png" alt="Parabellum" title="Parabellum">
           <p class="flexp">Parabellum</p>
         </a>
       </div>
       <div class="flex-coluna">
-        <a class="textoflex" href="index.php?pg=Bombs and piretes">
-          <img src="Imagens/Capa Piratas.jpeg" alt="Piratas E Bombas" title="Piratas E Bombas">
+        <a class="textoflex" href="index.php?pg=bombs_and_piretes">
+          <img src="imagens/capa_piratas.jpeg" alt="Piratas E Bombas" title="Piratas E Bombas">
           <p class="flexp">Pirates And Bombs</p>
         </a>
 
       </div>
       <div class="flex-coluna">
-        <a class="textoflex" href="index.php?pg=Survival Instinct">
-          <img src="Imagens/Capa Survival.png" alt="Survival Instinct" title="Survival Instinct">
+        <a class="textoflex" href="index.php?pg=survival_instinct">
+          <img src="imagens/capa_survival.png" alt="Survival Instinct" title="Survival Instinct">
           <p class="flexp">Survival Instinct</p>
         </a>
 
       </div>
       <div class="flex-coluna">
-        <a class="textoflex" href="index.php?pg=A Arte Da Ocultação">
-        <img src="Imagens/Capa Ocult.jpeg" alt="A Arte Da Ocultação" title="A Arte Da Ocultação" />
+        <a class="textoflex" href="index.php?pg=a_arte_da_ocultação">
+        <img src="imagens/capa_ocult.jpeg" alt="A Arte Da Ocultação" title="A Arte Da Ocultação" />
         <p class="flexp">A Arte Da Ocultação</p>
         </a>
       </div>

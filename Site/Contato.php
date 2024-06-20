@@ -20,7 +20,7 @@
     <h1>Nos Contate Aqui:</h1>
     <br />
 
-    <form name="formContato" id="form"  method="post" action="index.php?pg=Agradecimento">
+    <form name="formContato" id="form"  method="post" action="index.php?pg=agradecimento">
       <label for="nome">Digite seu nome completo:</label>
       <input type="text" name="nome" id="nome" />
       <br/>

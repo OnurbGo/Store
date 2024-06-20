@@ -17,7 +17,7 @@
 
 <body>
   <video class="video" autoplay muted loop>
-    <source src="Imagens/Banner Shin Shoruyken.mp4" type="video/mp4">
+    <source src="imagens/banner_shin_shoruyken.mp4" type="video/mp4">
   </video>
 
   <div class="conteiner-centro">
@@ -31,7 +31,7 @@
   <br><br><br><br>
     
   <div class="conteiner-centro">
-  <img class="gif-agradecimento" src="Imagens/Hadouken Hit.gif">
+  <img class="gif-agradecimento" src="imagens/hadouken_hit.gif">
   </div>
 
   <br><br><br><br>

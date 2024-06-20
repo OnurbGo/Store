@@ -20,7 +20,7 @@
   <p class="textocentro">Pagina não Encontrada</p>
 
   <div class="conteiner-centro">
-    <img class="gif-alex" src="Imagens/Stun.webp">
+    <img class="gif-alex" src="Imagens/stun.webp">
   </div>
 
   <br><br><br>
